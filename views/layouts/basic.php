@@ -126,26 +126,12 @@ $current_url = Yii::$app->request->url;
 						if(strpos($current_url , 'site%2Fplan')) {
 							echo Html::tag('li',Html::a('Мероприятия', ['site/plan'], ['class' => 'active_link', 'href'=>'#start']),['class' => 'active']);}
 							else { echo Html::tag('li', Html::a('Мероприятия', ['site/plan'], ['class' => 'not_active_link']));
-						}
-						
-
-						// if(strpos($current_url , 'site%2Fprojects') || strpos($current_url , 'site%2Fprojects2') || strpos($current_url , 'site%2Fprojects3') || strpos($current_url , 'site%2Fprojects4')) {
-						// 	echo '<li >'.Html::a('Список проектов | услуг<b class="caret"></b>', ['#'], ['class' => 'dropdown-toggle active_link', 'data-toggle' => 'dropdown']).'<ul class="dropdown-menu">'; 
-						// }
-						// else {
-						// 	echo '<li  >'.Html::a('Список проектов | услуг<b class="caret"></b>', ['#'], ['class' => 'dropdown-toggle', 'data-toggle' => 'dropdown']).'<ul class="dropdown-menu">'; 
-						// }
+						} 
 
 						if(strpos($current_url , 'site%2Fprojects')) {
 							echo Html::tag('li',Html::a('Список проектов | услуг', ['site/projects'], ['class' => 'active_link', 'href'=>'#start']),['class' => 'active']);}
 							else { echo Html::tag('li', Html::a('Список проектов | услуг', ['site/projects'], ['class' => 'not_active_link'])); 
 						}
-
-						// if(strpos($current_url , 'site%2Fprojects') && !strpos($current_url , 'site%2Fprojects2') && !strpos($current_url , 'site%2Fprojects3') && !strpos($current_url , 'site%2Fprojects4')) {
-						// 	echo Html::tag('li',Html::a('Направление: Социальный маркетинг и менеджмент', ['site/projects'], ''),['class' => 'active']);}
-						// 	else { echo Html::tag('li', Html::a('Направление: Социальный маркетинг и менеджмент', ['site/projects'], ''));  }
-
-						 
 
 						echo '</ul></li>'; 
 
