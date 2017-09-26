@@ -1,8 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\helpers\Url; 
-use yii\widgets\Breadcrumbs;
- 
+use yii\widgets\Breadcrumbs; 
 
 $this->title = 'Главная - "НАЦИОНАЛЬНОЕ ОБЩЕСТВО КАЧЕСТВА"';
 ?>

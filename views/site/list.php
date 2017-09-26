@@ -2,7 +2,6 @@
 use yii\helpers\Html;
 use yii\helpers\Url; 
 use yii\widgets\Breadcrumbs; 
- 
 
 $this->title = 'Список разработанных проектов и грантов - НП "НОК"';
 ?>

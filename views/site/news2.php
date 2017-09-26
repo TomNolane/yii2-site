@@ -4,7 +4,6 @@ use yii\helpers\Url;
 use app\components\SliderWidget;
 use yii\widgets\Breadcrumbs;
 use yii\data\Pagination;
- 
 
 $this->title = 'Новости - "НАЦИОНАЛЬНОЕ ОБЩЕСТВО КАЧЕСТВА"';
 ?>
