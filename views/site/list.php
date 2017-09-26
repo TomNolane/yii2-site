@@ -7,7 +7,7 @@ $this->title = 'Список разработанных проектов и гр
 ?>
 
 <!-- Header -->
-	<header id="head2">
+	<header id="head5">
 		<div class="container">
 			<div class="row">
 				<h1 class="lead">Список разработанных проектов и грантов<br>НП "НОК"</h1>
