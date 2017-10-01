@@ -243,7 +243,7 @@ $current_url = Yii::$app->request->url;
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Все права защищены &copy; <?= date('Y') ?>, НП НОК. Разработчик сайта <?php echo Html::tag('a','Tom Nolane',['href' => Url::to('https://vk.com/tomnolane'), 'rel' => 'designer', 'target' => '_blank']); ?>
+								Все права защищены &copy; <?= date('Y') ?>, НП НОК. Разработчик сайта <?php echo Html::tag('a','Tom Nolane',['href' => Url::to('https://vk.com/tomnolane'), 'rel' => 'designer', 'target' => '_blank']); ?> & <?php echo Html::tag('a','Kvonosan',['href' => Url::to('https://vk.com/kvonosan'), 'rel' => 'designer', 'target' => '_blank']); ?> <!-- web developer Tom Nolane tomnolane.ru and Kvonosan--> 
 							</p>
 						</div>
 					</div>
